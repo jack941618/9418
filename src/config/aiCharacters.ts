@@ -2,12 +2,12 @@
 export const modelConfigs = [
   {
     model: "qwen-plus",
-    apiKey: process.env.QWEN_PLUS_API_KEY || process.env.DASHSCOPE_API_KEY,
+    apiKey: "sk-085b5d9252174b699229cf1d993d48fd",
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {
     model: "qwen-turbo",
-    apiKey: process.env.QWEN_TURBO_API_KEY || process.env.DASHSCOPE_API_KEY,
+    apiKey: "sk-085b5d9252174b699229cf1d993d48fd",
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {

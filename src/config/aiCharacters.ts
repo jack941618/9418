@@ -2,7 +2,7 @@
 export const modelConfigs = [
   {
     model: "qwen-plus",
-    apiKey: "DASHSCOPE_API_KEY", // sk-085b5d9252174b699229cf1d993d48fd
+    apiKey: "sk-085b5d9252174b699229cf1d993d48fd", 
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {
@@ -32,7 +32,7 @@ export const modelConfigs = [
   },
   {
     model: "qwen-turbo",//调度模型
-    apiKey: "DASHSCOPE_API_KEY", // sk-085b5d9252174b699229cf1d993d48fd
+    apiKey: "sk-085b5d9252174b699229cf1d993d48fd", 
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {

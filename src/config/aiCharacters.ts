@@ -2,7 +2,7 @@
 export const modelConfigs = [
   {
     model: "qwen-plus",
-    apiKey: "sk-085b5d9252174b699229cf1d993d48fd", 
+    apiKey: process.env.QWEN_PLUS_API_KEY || process.env.DASHSCOPE_API_KEY,  // 优先用 QWEN_PLUS_API_KEY，如果没有则用 DASHSCOPE_API_KEY
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {
@@ -31,8 +31,8 @@ export const modelConfigs = [
     baseURL: "https://open.bigmodel.cn/api/paas/v4/"
   },
   {
-    model: "qwen-turbo",//调度模型
-    apiKey: "sk-085b5d9252174b699229cf1d993d48fd", 
+    model: "qwen-turbo",
+    apiKey: process.env.QWEN_TURBO_API_KEY || process.env.DASHSCOPE_API_KEY,
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {

@@ -247,5 +247,3 @@ export function generateAICharacters(groupName: string, allTags: string): AIChar
       tags: ["聊天", "文字游戏", "学生", "娱乐"]
     }
   ];
-}
-
